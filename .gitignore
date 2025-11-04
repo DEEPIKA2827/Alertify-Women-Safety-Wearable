@@ -1,0 +1,21 @@
+# Arduino / ESP32 artifacts
+build/
+.pio/
+.vscode/
+.vs/
+/.arduino15/
+*.bin
+*.elf
+*.hex
+*.ino.cpp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+
+# Keep secrets out
+secrets.h
